@@ -1,0 +1,33 @@
+html {
+	margin:0;
+	padding: 0;
+	}
+
+body {
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753
+	margin:0;
+	padding:0;
+	background:blue
+	}
+p{
+	margin-top:0;
+	text-align: justify;
+	}
+h3 {
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+	color: #7D775C
+	}
+
+
+
+
+.myNewStyle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color:red;
+
+}
