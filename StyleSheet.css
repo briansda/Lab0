@@ -4,30 +4,92 @@ html {
 	}
 
 body {
-	font: 75% georgia, sans-serif;
-	line-height: 1.88889;
-	color: #555753
-	margin:0;
-	padding:0;
-	background:blue
+	background-image:url("bluepattern.jpg");
+	color: white;
+	text-align: center;
 	}
+
+pre {
+	align:left;
+}
+
 p{
-	margin-top:0;
-	text-align: justify;
-	}
-h3 {
-	font: italic normal 1.4em georgia, sans-serif;
-	letter-spacing: 1px;
-	margin-bottom: 0;
-	color: #7D775C
+	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+	color: white;
+	text-align: center;
 	}
 
+h1 {
+	font-family: 'Lobster', Georgia, Times, serif;
+	font-size: 70px;
+	Line-height: 200px;
+	color: white;
+	text-align:center;
+	}
 
+ul {
+	position: fixed;
+	top: 0;
+	width:100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;	
+}
 
+li {
+	float: left;	
+}
+
+li a {
+	display: block;	
+	color: white;
+	text-align: center;
+	font-family: 'Lobster', Georgia, Times, serif;
+	font-size: 16px;
+	padding: 14px 16px;
+	text-decoration:none;
+}
+
+.active {
+	background-color: #4CAF50;`
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+table {
+	background-color: white;
+	border 1px solid black;
+	width: 100%;
+}
+
+th{
+	background-color:#4CAf50;
+	color: black;
+	text-align: middle;
+}
+
+td{
+	text-align: middle;
+	background-color: white;
+	color:black;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
 
 .myNewStyle {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-weight: bold;
-	color:red;
+	color: blue;
+	text-align:center;
+}
+
+@media only screen and (max-width:320px) {
+	body {font-size: 2em; }
 
 }
